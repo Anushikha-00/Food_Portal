@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"	content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="food.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" 
+    integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous"> 
+    
+    <title>Online FoodPortal</title>
+		
+</head>
+
+<body>
+	<header>
+		<h1 id="top">Online</h1>
+		<h1 id="top1">FoodPortal</h1>
+	</header>
+	<hr>
+	<nav id="navbar">
+		<img src="food/foodlogo.jpg ">
+		<ul id="navcontent">
+			<li><a href="#">Home</a></li>
+			<li><a href="#">About</a></li>
+			<li><a href="#menu">Menu</a></li>
+			<li><a href="#contact">ContactUs</a></li>
+		</ul>
+	</nav>
+	<div id="container1">
+		<div id="row1">
+			Welcome to Online FoodPortal
+		</div>
+		<button class="btn">ORDER NOW</button>
+	<!--	<div id="container3">
+			<div id="row2">
+				<button class="btn">Prices</button>
+			</div>  -->
+			<div id="row3">
+				<button class="btn">Specials</button>
+			</div>
+		</div>
+	</div>
+	<hr>
+	<h1 id="top3">Featured Products</h1>
+	<div id="container4">
+		<div id="row4">
+			<button class="btn">ORDER NOW</button>
+		</div>
+		<div id="row5">
+			<button class="btn">ORDER NOW</button>
+		</div>
+		<div id="row6">
+			<button class="btn">ORDER NOW</button>
+		</div>
+    </div>
+    
+
+
+<section id="contact">
+    <div id="ContactUs">
+        <h1>
+            <span>
+                <i class="far fa-address-card"></i>
+            </span>
+            <span> Contact Us </span>
+        </h1>
+        <div id="contact-container">
+            <div id="contact-form-container">
+        <form class="contact-form" action="#">
+            <div class="form-shape">
+                <label for="query">
+                    Type of Query
+                </label>
+                <select name="myQuery" id="query">
+                    <option value="sel" selected>
+                        Select
+                    </option>
+                    <option value="ord">
+                        Order related Issues
+                    </option>
+                    <option value="Site">
+                        Site related Issues
+                    </option>
+                    <option value="fed">
+                        Complaint related Issues
+                    </option>
+                    <option value="others">
+                        Others
+                    </option>
+                </select>
+            </div>
+            <div class="form-shape">
+                <label for="name">Name</label>
+                <input type="text" name="myName" 
+                    id="name" 
+                    placeholder="Enter your Name">
+            </div>
+            <div class="form-shape">
+                <label for="email">Email-Id</label>
+                <input type="email" name="myEmail" 
+                    id="email" 
+                    placeholder="Enter your email">
+            </div>
+            <div class="form-shape">
+                <label for="pho">Phone Number</label>
+                <input type="phone" name="myPhone" 
+                    id="pho" 
+                    placeholder="Enter your Phone no">
+            </div>
+            <div id="radio">
+                Are you a member of OnlneFoodPortal:
+                Yes <input type="radio" name="eligible">
+                No <input type="radio" name="eligible">
+            </div>
+            <div class="form-shape">
+                <label for="message">
+                    Ellaborate your query
+                </label>
+                <textarea name="mesg" id="message" 
+                    cols="30" rows="10">
+                </textarea>
+            </div>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </form>
+    </div>
+
+    <!--Aside section-->
+
+        <div id="my-details">
+
+            <h3> Get in touch</h3>
+            <p> Giving your Hunger a new Option.</p>
+            <h3> My Address </h3>
+            <div class="my-details-info">
+                <i class="fas fa-map-marker-alt"></i>
+                <span>bcdiuj,jhhk, India</span>
+            </div>
+            <div class="my-details-info">
+                <i class="far fa-envelope"></i>
+                <span>myemail@gmail.com</span>
+            </div>
+        </div>
+
+    </div>
+    </div>
+</section>
+</body>
+</html>
